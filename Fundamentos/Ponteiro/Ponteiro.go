@@ -10,7 +10,7 @@ func main() {
 	*p++   // Desreferenciando (Pegando o valor)
 	i++
 
-	p++ // Go não tem aritmética de ponteiros
+	//p++ // Go não tem aritmética de ponteiros
 
 	fmt.Println(p, *p, i, &i)
 }
